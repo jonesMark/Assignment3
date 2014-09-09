@@ -1,5 +1,5 @@
 //update by PRofessor U.
-
+//Second update by Mark Jones 9/9/14
 package com.example.assignment3;
 
 import android.support.v7.app.ActionBarActivity;
