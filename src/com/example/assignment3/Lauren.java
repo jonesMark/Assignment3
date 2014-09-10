@@ -1,6 +1,6 @@
 /*
  * name: Lauren Naylor Purpose:Programmer
- * 
+ * Test
  */
 //This is a test of 2 people on 1 file.
 package com.example.assignment3;
