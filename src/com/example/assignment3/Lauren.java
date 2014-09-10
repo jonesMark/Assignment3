@@ -1,5 +1,5 @@
 /*
- * name: Lauren Naylor
+ * name: Lauren Naylor Purpose:Programmer
  */
 
 package com.example.assignment3;
