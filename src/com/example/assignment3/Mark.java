@@ -3,7 +3,9 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-/*My name is mark jones (aka MJ) */
+/*My name is mark jones (aka MJ) 
+ * THis text is a test for git
+ * */
 public class Mark extends ActionBarActivity {
 
 	@Override
