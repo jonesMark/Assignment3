@@ -1,5 +1,6 @@
 /*
  * name: Lauren Naylor Purpose:Programmer
+ * This is a text of 2 people working on 1 file
  */
 
 package com.example.assignment3;
