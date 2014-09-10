@@ -7,11 +7,6 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-<<<<<<< HEAD
-//hello
-=======
-
->>>>>>> 5fff07ce0df3a9bc6dd1b028fc20a2365af4ae48
 public class Lauren extends ActionBarActivity {
 
 	@Override
