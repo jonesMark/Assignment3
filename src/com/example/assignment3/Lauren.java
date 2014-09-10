@@ -1,7 +1,8 @@
 /*
  * name: Lauren Naylor Purpose:Programmer
+ * 
  */
-
+//This is a test of 2 people on 1 file.
 package com.example.assignment3;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
