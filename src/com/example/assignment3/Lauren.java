@@ -1,5 +1,8 @@
-package com.example.assignment3;
+/*
+ * name: Lauren Naylor
+ */
 
+package com.example.assignment3;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
