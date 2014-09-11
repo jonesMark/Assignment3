@@ -9,7 +9,6 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
-//Button is for chris to link app
 public class MainActivity extends ActionBarActivity {
 	
 	public void toBeatlesScreen(View view) {
