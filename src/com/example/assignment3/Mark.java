@@ -20,16 +20,17 @@ import android.view.View;
 
 public class Mark extends ActionBarActivity {
 	boolean played;
+	MediaPlayer media = new MediaPlayer();
 	//return to the main menu
 	public void goHome(View view) {
 		Intent intent = new Intent(this, MainActivity.class);
+		media.stop();
 		startActivity(intent);
 	}
 	//Clicking DJ Kitty plays music found on Android TUtorials
 	public void playMusic(View view) throws IllegalArgumentException, IllegalStateException, IOException {
 		String mp3File = "raw/earthquack.mp3"; //Anybody catch my funny?
 		AssetManager assetMan = getAssets();
-		MediaPlayer media = new MediaPlayer();
 		FileInputStream mp3Stream = assetMan.openFd(mp3File).createInputStream();
 		media.setDataSource(mp3Stream.getFD());
 		media.prepare();
@@ -38,10 +39,6 @@ public class Mark extends ActionBarActivity {
 			played = true;
 		}
 		//cannot get this to work for some reason
-		else {
-			media.stop();
-			played = false;
-		}
 	}
 
 	@Override
