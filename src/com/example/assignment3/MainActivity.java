@@ -2,13 +2,16 @@
 //Second update by Mark Jones 9/9/14
 //Created by Mark Jones, Lauren Naylor, and Chris Seigel
 package com.example.assignment3;
-//Make sure a button is added- MJ
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+//Mark Jones:
+//Music is Earthquack by DJ Fresh and Diplo
+//I used the android guide to figure out how to use it.
+//Make sure a button is added- MJ
 
 public class MainActivity extends ActionBarActivity {
 	
