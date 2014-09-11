@@ -1,12 +1,36 @@
 package com.example.assignment3;
-import android.support.v7.app.ActionBarActivity;
+import java.io.FileInputStream;
+import java.io.IOException;
+
+import android.content.Intent;
+import android.content.res.AssetManager;
+import android.media.MediaPlayer;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 /*My name is mark jones (aka MJ) 
  * The theme of my app today is cats.  So, my screen has crazy meme cats
+ * This java class was only worked on by MJ
  * */
 public class Mark extends ActionBarActivity {
+
+	//return to the main menu
+	public void goHome(View view) {
+		Intent intent = new Intent(this, MainActivity.class);
+		startActivity(intent);
+	}
+	//Clicking DJ Kitty plays music found on Android TUtorials
+	public void playMusic(View view) throws IllegalArgumentException, IllegalStateException, IOException {
+		String mp3File = "raw/earthquack.mp3"; //Anybody catch my funny?
+		AssetManager assetMan = getAssets();
+		MediaPlayer media = new MediaPlayer();
+		FileInputStream mp3Stream = assetMan.openFd(mp3File).createInputStream();
+		media.setDataSource(mp3Stream.getFD());
+		media.prepare();
+		media.start();
+		}
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
