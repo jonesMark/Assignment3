@@ -14,4 +14,5 @@
 	<string name= "leave">Leave the Fun and go home :(</string>
 	<string name= "awesomeness">Go to the Awesomness</string>
 	<string name="edit_message">Enter a message</string>
+	<string name= "button_send">To Chris</string>
 </resources>
