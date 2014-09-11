@@ -1,5 +1,6 @@
 //update by PRofessor U.
 //Second update by Mark Jones 9/9/14
+//Created by Mark Jones, Lauren Naylor, and Chris Seigel
 package com.example.assignment3;
 //Make sure a button is added- MJ
 import android.content.Intent;
