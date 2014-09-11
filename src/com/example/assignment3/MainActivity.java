@@ -20,6 +20,12 @@ public class MainActivity extends ActionBarActivity {
 		startActivity(intent);
 	}
 
+	//Send person to Mark Page
+	public void toTheAwesomeness(View view) {
+		Intent intent = new Intent(this, Mark.class);
+		startActivity(intent);
+	}
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
