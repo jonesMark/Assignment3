@@ -3,14 +3,12 @@
     android:layout_height="fill_parent"
     android:orientation="vertical" >
 
-    
-    
     <Button
         android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/BeatlesButton"
-        android:onClick= "toBeatlesScreen" />
+        android:onClick="toBeatlesScreen"
+        android:text="@string/BeatlesButton" />
 
     <Button
         android:id="@+id/button2"
@@ -18,5 +16,17 @@
         android:layout_height="wrap_content"
         android:onClick="toTheAwesomeness"
         android:text="@string/awesomeness" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="330dp"
+        android:src="@drawable/crazyandroid" />
 
 </LinearLayout>

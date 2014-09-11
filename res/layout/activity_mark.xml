@@ -5,20 +5,17 @@
 
     <ImageButton
         android:id="@+id/imageButton1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick = "playMusic"
-        android:src="@drawable/djkitty" />
-
-    <EditText
-        android:id="@+id/editText1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:text="@string/clickthecat" >
+        android:onClick="playMusic"
+        android:src="@drawable/djkitty" />
 
-        <requestFocus />
-    </EditText>
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/clickthecat" 
+        android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <Button
         android:id="@+id/button1"

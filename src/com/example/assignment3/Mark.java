@@ -14,8 +14,12 @@ import android.view.View;
  * The theme of my app today is cats.  So, my screen has crazy meme cats
  * This java class was only worked on by MJ
  * */
-public class Mark extends ActionBarActivity {
 
+//Music is Earthquake by DJ Fresh and Diplo
+//I used the android guide to figure out how to use it.
+
+public class Mark extends ActionBarActivity {
+	boolean played;
 	//return to the main menu
 	public void goHome(View view) {
 		Intent intent = new Intent(this, MainActivity.class);
@@ -29,8 +33,16 @@ public class Mark extends ActionBarActivity {
 		FileInputStream mp3Stream = assetMan.openFd(mp3File).createInputStream();
 		media.setDataSource(mp3Stream.getFD());
 		media.prepare();
-		media.start();
+		if (!played) {
+			media.start();
+			played = true;
 		}
+		//cannot get this to work for some reason
+		else {
+			media.stop();
+			played = false;
+		}
+	}
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {

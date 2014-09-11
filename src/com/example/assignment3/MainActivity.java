@@ -8,11 +8,7 @@ import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-//Mark Jones:
-//Music is Earthquack by DJ Fresh and Diplo
-//I used the android guide to figure out how to use it.
-//Make sure a button is added- MJ
-
+//Button is for chris to link app
 public class MainActivity extends ActionBarActivity {
 	
 	public void toBeatlesScreen(View view) {
@@ -20,7 +16,7 @@ public class MainActivity extends ActionBarActivity {
 		startActivity(intent);
 	}
 
-	//Send person to Mark Page
+	//Send person to Mark Page //MJ edited this
 	public void toTheAwesomeness(View view) {
 		Intent intent = new Intent(this, Mark.class);
 		startActivity(intent);
