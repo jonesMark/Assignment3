@@ -21,6 +21,14 @@ public class MainActivity extends ActionBarActivity {
 		Intent intent = new Intent(this, Mark.class);
 		startActivity(intent);
 	}
+	
+	public void toChris(View view) {
+	    Intent intent = new Intent(this, Chris.class);
+	    EditText editText = (EditText) findViewById(R.id.edit_message);
+	    String message = editText.getText().toString();
+	    intent.putExtra(EXTRA_MESSAGE, message);
+	    startActivity(intent);
+	}
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
