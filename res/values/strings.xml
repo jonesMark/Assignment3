@@ -8,4 +8,6 @@
     <string name="title_activity_chris">Chris</string>
     <string name="title_activity_lauren">Lauren</string>
 	<string name="title_activity_Steve">Steve</string>
+	<string name= "BackButton">Back to main screen</string>
+	<string name= "BeatlesButton">To Beatles page</string>
 </resources>

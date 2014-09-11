@@ -2,12 +2,19 @@
 //Second update by Mark Jones 9/9/14
 package com.example.assignment3;
 //Make sure a button is added- MJ
-import android.support.v7.app.ActionBarActivity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 public class MainActivity extends ActionBarActivity {
+	
+	public void toBeatlesScreen(View view) {
+		Intent intent = new Intent(this, Lauren.class);
+		startActivity(intent);
+	}
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
