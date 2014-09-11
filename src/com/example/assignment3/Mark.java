@@ -4,7 +4,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 /*My name is mark jones (aka MJ) 
- * THis text is a test for git
+ * The theme of my app today is cats.  So, my screen has crazy meme cats
  * */
 public class Mark extends ActionBarActivity {
 
