@@ -22,6 +22,8 @@ public class MainActivity extends ActionBarActivity {
 		startActivity(intent);
 	}
 	
+	public final static String EXTRA_MESSAGE = "com.example.myfirstapp.MESSAGE";
+	
 	public void toChris(View view) {
 	    Intent intent = new Intent(this, Chris.class);
 	    EditText editText = (EditText) findViewById(R.id.edit_message);
