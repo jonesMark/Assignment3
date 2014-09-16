@@ -4,12 +4,15 @@ import java.io.IOException;
 
 import android.content.Intent;
 import android.content.res.AssetManager;
+import android.graphics.Point;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
+import android.view.Display;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.TextView;
 /*My name is mark jones (aka MJ) 
  * The theme of my app today is cats.  So, my screen has crazy meme cats
  * This java class was only worked on by MJ
@@ -20,6 +23,8 @@ import android.view.View;
 
 public class Mark extends ActionBarActivity {
 	boolean played;
+	int w;
+	int l;
 	MediaPlayer media = new MediaPlayer();
 	//return to the main menu
 	public void goHome(View view) {
@@ -40,11 +45,11 @@ public class Mark extends ActionBarActivity {
 		}
 		//cannot get this to work for some reason
 	}
-
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_mark);
+		// Set the text view as the activity layout setContentView(textView);
 	}
 
 	@Override
